@@ -1,11 +1,17 @@
+# 芫荽擴充 Iansui Expansion擴充
+
 https://github.com/ButTaiwan/iansui
+
 原來出處，這裡只是加字重
+
 The original source, here is just adding weight
 
 芫荽是偏台灣寫法的Klee One，可惜是只有Regular，霞鶩文楷有3個字種，所以我打算為它加字重
+
 Coriander is Klee One, which is more Taiwanese. Unfortunately, there is only Regular. There are 3 characters in Xiaqu Wenkai, so I plan to add weight to it.
 
 我用FontCreator加字重，建議別使用ExtraLight、Thin，因為有問題，目前其他字是測試版
+
 I use FontCreator to increase the font weight. It is recommended not to use ExtraLight and Thin, because there are problems, and other characters are currently in beta version
 
 ![芫荽/iansui](https://github.com/ButTaiwan/iansui/blob/main/img/iansui_cover.jpg)
