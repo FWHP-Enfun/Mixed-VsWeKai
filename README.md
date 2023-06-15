@@ -1,4 +1,4 @@
-# 芫荽擴充 Iansui Expansion擴充
+# 芫荽擴充 Iansui Expansion
 
 https://github.com/ButTaiwan/iansui
 
