@@ -1,11 +1,13 @@
-﻿Copyright (c) 2022, But Ko (https://github.com/ButTaiwan/iansui),
+﻿Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)
+Copyright 2023 FWHP (https://github.com/FWHP-Enfun/Mixed-VsWeKai)
+Copyright 2021-2023 LXGW (https://github.com/lxgw/LxgwWenKai)
+Copyright 2022-2023 LXGW (https://github.com/lxgw/LxgwWenkaiTC)
+﻿Copyright (c) 2022, But Ko (https://github.com/ButTaiwan/iansui)
 with Reserved Font Name "iansui" and "芫荽".
-
-Copyright (c) 2020, The Klee Project Authors (https://github.com/fontworks-fonts/Klee).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-https://scripts.sil.org/OFL
+http://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------
