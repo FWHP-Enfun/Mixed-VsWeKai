@@ -5,7 +5,7 @@ I feel that it violates the SIL regulations, I decided to change the Iansui Expa
 
 混菜寫楷，只是把[霞鶩文楷](https://github.com/lxgw/LxgwWenKai)、[霞鶩文楷TC](https://github.com/lxgw/LxgwWenkaiTC)、[芫荽](https://github.com/ButTaiwan/iansui)混一起，都是用[Klee One](https://fonts.google.com/specimen/Klee+One)改的，我一直喜歡芫荽，不過它沒有簡體，切換字體很麻煩，所以我把他們混和
 
-Mixed VsWeKai, just mix [LXGW WenKai](https://github.com/lxgw/LxgwWenKai), [LXGW WenKai TC](https://github.com/lxgw/LxgwWenkaiTC), and [iansui](https://github.com/ButTaiwan/iansui), all changed with [Klee One](https://fonts.google.com/specimen/Klee+One), I have always liked Coriander, but it does not have simplified characters, it is troublesome to switch fonts, so I mixed them
+Mixed VsWeKai, just mix [LXGW WenKai](https://github.com/lxgw/LxgwWenKai), [LXGW WenKai TC](https://github.com/lxgw/LxgwWenkaiTC), and [iansui](https://github.com/ButTaiwan/iansui), all changed with [Klee One](https://fonts.google.com/specimen/Klee+One), I have always liked iansui, but it does not have simplified characters, it is troublesome to switch fonts, so I mixed them
 
 我後來認識[縫合楷](https://github.com/lxgw/FusionKai)，但還是有不一樣的地方，字元比較多
 
@@ -15,6 +15,15 @@ Later I got to know [Fusion Kai](https://github.com/lxgw/FusionKai), but there a
 The previous copywriting belonged to someone else, this time I want to change it to my own
 
 # 內容差別 Content Difference
+
+只是把一些字體混一起，以芫荽為主
+
+Just mixed up some fonts, with Coriander as the Iansui
+
+有6個字重，有些不好用
+
+There are 6 characters, some are not easy to use
+![](https://github.com/FWHP-Enfun/Mixed-VsWeKai/blob/main/Picture/0.png)
 
 # 使用字體效果 Use Font Effects
 
