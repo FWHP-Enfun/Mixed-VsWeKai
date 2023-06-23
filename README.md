@@ -25,6 +25,11 @@ Just mixed up some fonts, with Coriander as the Iansui
 There are 6 characters, some are not easy to use
 ![](https://github.com/FWHP-Enfun/Mixed-VsWeKai/blob/main/Picture/0.png)
 
+我做了變體，希望可以嘗試，但使用起來很當
+
+I made a variation, hoping to try it out, but it sucks to use
+![](https://github.com/FWHP-Enfun/Mixed-VsWeKai/blob/main/Picture/1.png)
+
 # 使用字體效果 Use Font Effects
 
 # 原來的字體 Original Font
