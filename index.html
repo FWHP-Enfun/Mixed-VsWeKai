@@ -1,0 +1,395 @@
+<body bgcolor="#ffffff">
+<meta charset="UTF-8">
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>混菜寫楷 Mixed VsWeKai</title>
+<style>
+  @font-face {
+    font-family: 'Preview';
+    font-style: normal;
+    font-display: block;
+    font-weight: 400;
+    src: url(https://cdn-files.gamejolt.net/qTvuoUJM8fmQsLvfRvWidA==,1688451600/data/games/13/221/820221/files/64a2682b23e99/mixedvswekaivariable.woff);
+  }
+  
+  .--light {
+    font-variation-settings: "wght" 300, "ital" 50, "wdth" 50, "opsz" 0;
+}
+
+.--litalic {
+    font-variation-settings: "wght" 400, "ital" 0, "wdth" 50, "opsz" 0;
+}
+
+.--length {
+    font-variation-settings: "wght" 400, "ital" 50, "wdth" 0, "opsz" 0;
+}
+
+.--regular {
+    font-variation-settings: "wght" 400, "ital" 50, "wdth" 50, "opsz" 0;
+}
+
+.--casual {
+    font-variation-settings: "wght" 400, "ital" 50, "wdth" 50, "opsz" 100;
+}
+
+.--width {
+    font-variation-settings: "wght" 400, "ital" 50, "wdth" 100, "opsz" 0;
+}
+
+.--ritalic {
+    font-variation-settings: "wght" 400, "ital" 100, "wdth" 50, "opsz" 0;
+}
+
+.--medium {
+    font-variation-settings: "wght" 500, "ital" 50, "wdth" 50, "opsz" 0;
+}
+
+.--bold {
+    font-variation-settings: "wght" 700, "ital" 50, "wdth" 50, "opsz" 0;
+}
+
+.--extrabold {
+    font-variation-settings: "wght" 800, "ital" 50, "wdth" 50, "opsz" 0;
+}
+
+.--heavy {
+    font-variation-settings: "wght" 900, "ital" 50, "wdth" 50, "opsz" 0;
+}
+
+.--mixed {
+    font-variation-settings: "wght" 900, "ital" 50, "wdth" 50, "opsz" 100;
+	
+</style>
+
+<style>
+  /* flex font size */
+  html {font-size: 100%;}
+
+  body{
+    margin:0; font-family: sans-serif;
+  }
+
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 18px;
+    }
+  }
+
+  :root {
+    font-size: 100%/1.5;
+  }
+  a {
+    color: black;
+    text-decoration-color: rgba(0,0,0,.108);
+    text-underline-offset: .108em;
+    text-underline-offset: .25em;
+  }
+
+</style>
+
+<div align="center">
+<h1><span  class="--medium" style="font-family: 'Preview'"><a title="github" href="https://github.com/FWHP-Enfun/Mixed-VsWeKai">混菜寫楷 Mixed VsWeKai</a></span></h1>
+<a href="index2.html">第二個效果 Second Effect</a>、<a href="https://github.com/FWHP-Enfun">FWHP GitHub</a>、
+<a title="github" href="https://github.com/FWHP-Enfun/Mixed-VsWeKai">字體網站 Font Site</a>
+</div>
+
+<form id="panel" action="https://github.com/a-vis/wavefont"  onclick="event.target === this && togglePanel()">
+  <script>
+    let toggle = localStorage.getItem('wf:panel-toggle')
+    if (toggle) panel.classList.add('folded')
+    function togglePanel(){
+      localStorage.setItem('wf:panel-toggle', panel.classList.contains('folded') ? '':'1')
+      panel.classList.toggle('folded');
+    }
+  </script>
+  <style>
+    #panel {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      margin: auto;
+      width: 22rem;
+      max-width: 80vw;
+      box-shadow: 0 2.8px 2.2px rgba(49, 43, 65, 0.034),
+        0 6.7px 5.3px rgba(49, 43, 65, 0.048),
+        0 12.5px 10px rgba(49, 43, 65, 0.06),
+        0 22.3px 17.9px rgba(49, 43, 65, 0.072),
+        0 41.8px 33.4px rgba(49, 43, 65, 0.086),
+        0 100px 80px rgba(49, 43, 65, 0.12);
+      border-top: .5rem solid rgba(252,252,253,.99);
+      border-left: .5rem solid rgba(238,238,240,.98);
+      border-right: .5rem solid rgba(238,238,239,.97);
+      border-bottom: .5rem solid rgba(231,231,232,.97);
+      background: rgba(238,238,239,1);
+      z-index: 1;
+      -webkit-backdrop-filter: blur(2px);
+      backdrop-filter: blur(2px);
+      cursor: e-resize;
+      transition: right .3s cubic-bezier(.34,.03,.26,1), bottom .3s cubic-bezier(.34,.03,.61,1);
+    }
+    #panel.folded {
+      right: -21rem;
+      bottom: -8rem;
+      cursor: w-resize;
+    }
+    .panel-content {
+      padding: 1.5rem 1.5rem 1.5rem;
+      height: 100%;
+      background: linear-gradient(to bottom right, rgba(232,232,233,.35) 20%, rgba(255,255,255,.7) 180%), rgba(245,245,245,1);
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: space-around;
+      text-shadow: 1px 1px white;
+      /* box-shadow: 0 -5px rgba(255,255,255,.75), 0 5px rgba(255,255,255,.75), -5px 0 rgba(255,255,255,.5), 5px 0 rgba(255,255,255,.5); */
+      /* background: linear-gradient(to bottom, rgba(252,252,252,1), rgba(238,238,238,1)); */
+    }
+    #panel h1 {
+      cursor: default;
+      margin: -.1rem auto .8rem;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 1;
+	  font-family: Preview;
+	  font-variation-settings: 'wght' var(--wght, 400), 'ital' var(--ital, 50), 'wdth' var(--wdth, 50), 'opsz' var(--opsz, 0);
+    }
+    #panel h1 small {
+      font-weight: normal;
+      font-size: .66em;
+    }
+    .panel-field {
+      display: flex;
+      flex-direction: row;
+      height: 1.75rem;
+      align-items: center;
+    }
+    .panel-field label {
+      flex: 3rem 0 0;
+      text-align: right;
+      margin-right: 1rem;
+    }
+    .panel-field input[type=range] {
+      margin-top: 3px;
+      flex: 1 0 0;
+    }
+    .panel-field output {
+      flex: 2rem 0 0;
+      margin-left: .5rem;
+      font-size: smaller;
+    }
+    .panel-cta {
+      align-self: center;
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .panel-cta button {
+      margin: 0 .25rem;
+      line-height: 1.5;
+      padding-bottom: 2px;
+      display: inline-block;
+    }
+  </style>
+  <div class="panel-content" onclick="event.target === this && togglePanel()" >
+    <h1>
+    <sup><a title="github" href="https://github.com/FWHP-Enfun/Mixed-VsWeKai">混菜寫楷</a></sup>
+    </h1>
+	<h1>
+    <sup><a title="github" href="https://github.com/FWHP-Enfun/Mixed-VsWeKai">Mixed VsWeKai</a></sup>
+    </h1>
+
+    <div class="panel-field">
+      <label for="size"><small>Size</small></label> <input id="size" type="range" min="12" value="48" max="200" step="1"/>
+      <output id="sizeValue"></output>
+    </div>
+
+    <div class="panel-field">
+      <label for="spacing"><small>Spacing</small></label> <input id="spacing" type="range" min="0" value="1" step=".25" max="10"/>
+      <output id="spacingValue"></output>
+    </div>
+
+    <div class="panel-field">
+      <label for="weight"><small>Weight</small></label> <input id="weight" type="range" min="300" value="400" step="1" max="900"/>
+      <output id="weightValue"></output>
+    </div>
+	
+    <div class="panel-field">
+      <label for="ital"><small>Italic</small></label> <input id="ital" type="range" min="0" value="50" max="100" step="1"/>
+      <output id="italValue"></output>
+    </div>
+	
+    <div class="panel-field">
+      <label for="wdth"><small>Weight</small></label> <input id="wdth" type="range" min="0" value="50" max="100" step="1"/>
+      <output id="wdthValue"></output>
+    </div>
+	
+	    <div class="panel-field">
+      <label for="opsz"><small>Optical</small></label> <input id="opsz" type="range" min="0" value="0" max="100" step="1"/>
+      <output id="opszValue"></output>
+    </div>
+	
+  </div>
+</form>
+
+
+<main id="waveareas">
+  <style>
+    #waveareas {
+      display: grid; grid-template-columns: 1fr; margin-bottom: 20rem; gap: 3rem;
+      margin: 4rem auto;
+      // max-width: 1080px;
+    }
+    @media screen and (min-width: 2160px) {
+      #waveareas {
+        grid-template-columns: 1fr 1fr;
+        max-width: 2160px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
+    }
+    .wavearea {
+      text-align: center;
+      font-family: Preview;
+      line-height: 1.4;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 0;
+      resize: none;
+      word-break: break-all;
+      font-size: var(--size);
+      letter-spacing: var(--spacing);
+      font-variation-settings: 'wght' var(--wght, 400), 'ital' var(--ital, 50), 'wdth' var(--wdth, 50), 'opsz' var(--opsz, 0);
+      background-size: 100vw calc(var(--size, 100px) / 10);
+      background-image: linear-gradient(to bottom, rgb(230, 245, 255) 1px, transparent 1px);
+      background-attachment: local;
+      background-position: 0 -0.5px;
+      -webkit-overflow-scrolling: auto;
+      border: none;
+      white-space: pre-wrap;
+      position: relative;
+      width: 100%;
+    }
+    .wavearea:focus {
+      outline: none;
+    }
+    .wavearea::before {
+      position: absolute;
+      content: attr(title);
+      top: -2em;
+      left: 0;
+      letter-spacing: .25ch;
+      font-family: sans-serif;
+      font-size: 12px;
+    }
+  </style>
+  <div id="Chinese" title="中文 Chinese" class="wavearea" contenteditable spellcheck="false">一丁七三下丈上丑丐不丙世丕且丘丞丟並丫中串丸凡丹主乃久么之尹乍乏乎乒乓乖乘乙九也乞乩乳乾亂了予事二于云井互五亙些亞亟亡交亦亥亨享京亭亮人仁什仃仆仇仍今介仄以付仔仕他仗代令仙仞仿伉伙伊伕伍伐休伏仲件任仰</div>
+  <script>
+  // sawtooth
+  // wavearea.textContent += Array.from({length: 108}, (_,i) => String.fromCharCode(0x100 + (i * 2) % 100)).join('') + '\t\t'
+  </script>
+
+  <div id="sawtooth" title="Sawtooth" class="wavearea" contenteditable spellcheck="false">ĀĂĄĆĈĊČĎĐĒĔĖĘĚĜĞĠĢĤĦĨĪĬĮİĲĴĶĸĺļľŀłńņňŊŌŎŐŒŔŖŘŚŜŞŠŢĀĂĆĊĎĒĖĚĞĢĦĪĮĲĶĺľłņŊŎŒŖŚŞŢĀĂĊĒĚĢĪĲĺłŊŒŚŢĀĂĒĢĲłŒŢĀĂĢłŢ</div>
+  <script>
+  // sawtooth
+  // wavearea.textContent += Array.from({length: 108}, (_,i) => String.fromCharCode(0x100 + (i * 2) % 100)).join('') + '\t\t'
+  </script>
+
+  <div id="sine" title="Sine" class="wavearea" contenteditable spellcheck="false">ĲĺłŉŐŗŜşŢţţŢşśŖŏňŁĹİĨĠĘĒČćăāĀĀĂąĉĎĕĜĤĬĴļńŌŒŘŝŠţţţšŞřŔōņľĶĮĦĞĖĐĊĆĂĀĀĀĂĆĊĐėĞĦĮķĿŇŎŔŚŞšţţţŠŝŘŒŋńļĴīģěĔĎĉĄāĀĀāăć</div>
+  <script>
+  // sine
+  // wavearea.textContent += Array.from({length: 108}, (_,i) => String.fromCharCode(0x100 + (Math.sin(i/6) * 50 + 50))).join('') + '\t\t'
+  </script>
+
+  <div id="triangle" title="Tri" contenteditable class="wavearea">ĀĆČĒĘĞĤĪİĶļłňŎŔŚŠŠŚŔŎňłļĶİĪĤĞĘĒČĆĀĆČĒĘĞĤĪİĶļłňŎŔŚŠŠŚŔŎňłļĶİĪĤĞĘĒČĆĀĆČĒĘĞĤĪİĶļłňŎŔŚŠŠŚŔŎňłļĶİĪĤĞĘĒČĆĀĆČĒĘĞĤĪİ</div>
+  <script>
+    // triangle
+    // wavearea.textContent += Array.from({length: 108}, (_,i) => (
+    //   i = (i/33) % 1, i = i > .5 ? 1-i : i,
+    //   String.fromCharCode(0x100 + (i * 200))
+    // )).join('') + '\t\t'
+  </script>
+
+  <div id="rect" title="Custom" class="wavearea" contenteditable></div>
+  <script>
+  // rect.textContent += Array.from({length: 108}, (_,i) => (String.fromCharCode(0x100 + ((i/33) % 1 > .5 ? 100 : 1)))).join('')
+  </script>
+
+  <div id="noise" title="Random" class="wavearea" contenteditable></div>
+  <script>
+  noise.textContent += Array.from({length: 108}, (_,i) => (String.fromCharCode(0x100 + Math.floor(Math.random() * 100)))).join('')
+  </script>
+
+  <div id="speech" title="Sample" class="wavearea" contenteditable></div>
+  <script>
+  // speech
+  let values = `āĂăĄąĆćĈċĊĉċčīıēģĹĶĲĺķĺĺĳĽĳĶĵĦČģĹĪĞĠĝġđČĐĤĨĳħģĚģĢıĞĢİķīİĳķĴĲĪĬģęĬķĦĒěěėďĒĚĪĢēČċěĩĘđēĞĝĚČčĖħĨĝġĈĉċĊĉċčąĄăĂāāā`.split('').map(c => c.charCodeAt(0))
+  speech.textContent += String.fromCharCode(...values)
+  </script>
+
+  <div id="keyboard" title="0-9 a-Z ▁▂▃▄▅▆▇█" class="wavearea" spellcheck="false" contenteditable>0123456789 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ▁▂▃▄▅▆▇█</div>
+
+  <div id="range128" title="Latin Ext (+clipping)" class="wavearea" contenteditable></div>
+  <script>
+  range128.textContent += Array(130).fill(0).map((v,i)=> String.fromCharCode(0x100+i)).join('')
+  </script>
+
+
+  <!-- <div id="rangecyr100" title="Cyrillic (centered + clipping)" class="wavearea" contenteditable></div>
+  <script>
+  rangecyr100.textContent += Array(120).fill(0).map((v,i)=> String.fromCharCode(0x400+i-10)).join('') + '---'
+  </script> -->
+
+</main>
+
+<script>
+
+  (size.oninput = e => {
+    let value = +size.value;
+    size.title = value;
+    sizeValue.textContent = value + 'px';
+    waveareas.style.setProperty('--size', value + 'px')
+  })();
+
+  (spacing.oninput = e => {
+    let value = +spacing.value;
+    spacing.title = `'spacing' ${value}ch`;
+    spacingValue.textContent = value + 'ch';
+    waveareas.style.setProperty('--spacing', value + 'ch')
+  })();
+
+  (weight.oninput = e => {
+    let value = +weight.value;
+    weight.title = `'wght' ${value}`;
+    weightValue.textContent = (+value).toFixed(0);
+    waveareas.style.setProperty('--wght', value)
+  })();
+
+  (ital.oninput = e => {
+    let value = +ital.value;
+    ital.title = value;
+    italValue.textContent = value + '%';
+    waveareas.style.setProperty('--ital', value)
+  })();
+
+  (wdth.oninput = e => {
+    let value = +wdth.value;
+    wdth.title = value;
+    wdthValue.textContent = value;
+    waveareas.style.setProperty('--wdth', value)
+  })();
+  
+    (opsz.oninput = e => {
+    let value = +opsz.value;
+    opsz.title = value;
+    opszValue.textContent = value;
+    waveareas.style.setProperty('--opsz', value)
+  })();
+
+</script>
+
