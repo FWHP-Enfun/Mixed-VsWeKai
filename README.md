@@ -12,6 +12,7 @@ Mixed VsWeKai, just mix [LXGW WenKai](https://github.com/lxgw/LxgwWenKai), [LXGW
 Later I got to know [Fusion Kai](https://github.com/lxgw/FusionKai), but there are still differences, there are more characters
 
 之前文案是別人的，這次我想要改為自己的
+
 The previous copywriting belonged to someone else, this time I want to change it to my own
 
 # 內容差別 Content Difference
