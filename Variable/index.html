@@ -9,55 +9,63 @@
     font-style: regular;
     font-display: block;
     font-weight: 400;
-    src: url(https://github.com/FWHP-Enfun/Mixed-VsWeKai/releases/download/1.0V/MixedVsWeKai-Variable.woff);
+    src: url(Woff/MixedVsWeKaiTCVF.ttf);
   }
   
   .--light {
-    font-variation-settings: "wght" 300, "ital" 50, "wdth" 50, "opsz" 0;
+    font-variation-settings: "wght" 300, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0;
 }
 
 .--regular {
-    font-variation-settings: "wght" 400, "ital" 50, "wdth" 50, "opsz" 0;
+    font-variation-settings: "wght" 400, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0;
 }
 
 .--medium {
-    font-variation-settings: "wght" 500, "ital" 50, "wdth" 50, "opsz" 0;
+    font-variation-settings: "wght" 500, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0;
 }
 
 .--bold {
-    font-variation-settings: "wght" 700, "ital" 50, "wdth" 50, "opsz" 0;
+    font-variation-settings: "wght" 700, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0;
 }
 
 .--extrabold {
-    font-variation-settings: "wght" 800, "ital" 50, "wdth" 50, "opsz" 0;
+    font-variation-settings: "wght" 800, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0;
 }
 
 .--heavy {
-    font-variation-settings: "wght" 900, "ital" 50, "wdth" 50, "opsz" 0;
+    font-variation-settings: "wght" 900, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0;
 }
 
 .--litalic {
-    font-variation-settings: "wght" 400, "ital" 0, "wdth" 50, "opsz" 0;
+    font-variation-settings: "wght" 400, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 12;
 }
 
 .--ritalic {
-    font-variation-settings: "wght" 400, "ital" 100, "wdth" 50, "opsz" 0;
+    font-variation-settings: "wght" 400, "ital" 0, "wdth" 100, "opsz" 0, "slnt" -12;
+}
+
+.--lslant {
+    font-variation-settings: "wght" 400, "ital" 12, "wdth" 100, "opsz" 0, "slnt" 0;
+}
+
+.--rslant {
+    font-variation-settings: "wght" 400, "ital" -12, "wdth" 100, "opsz" 0, "slnt" 0;
 }
 
 .--length {
-    font-variation-settings: "wght" 400, "ital" 50, "wdth" 0, "opsz" 0;
+    font-variation-settings: "wght" 400, "ital" 0, "wdth" 200, "opsz" 0, "slnt" 0;
 }
 
 .--width {
-    font-variation-settings: "wght" 400, "ital" 50, "wdth" 100, "opsz" 0;
+    font-variation-settings: "wght" 400, "ital" 0, "wdth" 50, "opsz" 0, "slnt" 0;
 }
 
 .--casual {
-    font-variation-settings: "wght" 400, "ital" 50, "wdth" 50, "opsz" 100;
+    font-variation-settings: "wght" 400, "ital" 0, "wdth" 100, "opsz" 100, "slnt" 0;
 }
 
 .--mixed {
-    font-variation-settings: "wght" 900, "ital" 50, "wdth" 50, "opsz" 100;
+    font-variation-settings: "wght" 900, "ital" 0, "wdth" 100, "opsz" 100, "slnt" 0;
 	
 </style>
 
@@ -157,7 +165,7 @@
       font-size: 28px;
       line-height: 1;
 	  font-family: Preview;
-	  font-variation-settings: 'wght' var(--wght, 400), 'ital' var(--ital, 50), 'wdth' var(--wdth, 50), 'opsz' var(--opsz, 0);
+	  font-variation-settings: 'wght' var(--wght, 400), 'ital' var(--ital, 0), 'wdth' var(--wdth, 100), 'opsz' var(--opsz, 0), 'slnt' var(--slnt, 0);
     }
     #panel h1 small {
       font-weight: normal;
@@ -221,18 +229,23 @@
     </div>
 	
     <div class="panel-field">
-      <label for="ital"><small>Italic</small></label> <input id="ital" type="range" min="0" value="50" max="100" step="1"/>
+      <label for="ital"><small>Italic</small></label> <input id="ital" type="range" min="-12" value="0" max="12" step="1"/>
       <output id="italValue"></output>
     </div>
 	
     <div class="panel-field">
-      <label for="wdth"><small>Weight</small></label> <input id="wdth" type="range" min="0" value="50" max="100" step="1"/>
+      <label for="wdth"><small>Weight</small></label> <input id="wdth" type="range" min="50" value="100" max="200" step="1"/>
       <output id="wdthValue"></output>
     </div>
 	
 	    <div class="panel-field">
       <label for="opsz"><small>Optical</small></label> <input id="opsz" type="range" min="0" value="0" max="100" step="1"/>
       <output id="opszValue"></output>
+    </div>
+
+    <div class="panel-field">
+      <label for="slnt"><small>Slant</small></label> <input id="slnt" type="range" min="-12" value="0" max="12" step="1"/>
+      <output id="slntValue"></output>
     </div>
 	
   </div>
@@ -265,7 +278,7 @@
       word-break: break-all;
       font-size: var(--size);
       letter-spacing: var(--spacing);
-      font-variation-settings: 'wght' var(--wght, 400), 'ital' var(--ital, 50), 'wdth' var(--wdth, 50), 'opsz' var(--opsz, 0);
+      font-variation-settings: 'wght' var(--wght, 400), 'ital' var(--ital, 0), 'wdth' var(--wdth, 100), 'opsz' var(--opsz, 0), 'slnt' var(--slnt, 0);
       background-size: 100vw calc(var(--size, 100px) / 10);
       background-image: linear-gradient(to bottom, rgb(230, 245, 255) 1px, transparent 1px);
       background-attachment: local;
@@ -374,7 +387,7 @@
   (ital.oninput = e => {
     let value = +ital.value;
     ital.title = value;
-    italValue.textContent = value + '%';
+    italValue.textContent = value + '°';
     waveareas.style.setProperty('--ital', value)
   })();
 
@@ -390,6 +403,13 @@
     opsz.title = value;
     opszValue.textContent = value;
     waveareas.style.setProperty('--opsz', value)
+  })();
+
+    (slnt.oninput = e => {
+    let value = +slnt.value;
+    slnt.title = value;
+    slntValue.textContent = value + '°';
+    waveareas.style.setProperty('--slnt', value)
   })();
 
 </script>

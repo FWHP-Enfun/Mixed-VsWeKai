@@ -11,11 +11,11 @@ body { background-color: #fff; color: #333 }
 
 @font-face{
     font-family: 'Preview'; font-weight: 300 900; font-style: Regular;
-	src: url(https://github.com/FWHP-Enfun/Mixed-VsWeKai/releases/download/1.0V/MixedVsWeKai-Variable.woff);
+	src: url(Woff/MixedVsWeKaiTCVF.ttf);
 }
 
 #title { margin: 10px 155px }
-#title h1 { font-family: 'Preview'; font-size: 300%; display: inline; font-variation-settings: "wght" 700, "ital" 50, "wdth" 50, "opsz" 0}
+#title h1 { font-family: 'Preview'; font-size: 300%; display: inline;}
 #title a { font-size: 200%; font-weight: 600; text-decoration: none;}
 #title a:hover { color: #c04 }
 
@@ -26,23 +26,25 @@ body { background-color: #fff; color: #333 }
 p { font-size: 180%; font-family: 'Preview', sans-serif; line-height: 1.4; margin: 0;}
 p .tag { display: inline-block; width: 140px; text-align: right; margin-right: 20px; vertical-align: bottom; font: normal 70%/1.4 sans-serif; color: #444 }
 
-.light p, .light #custom { font-variation-settings: "wght" 300, "ital" 50, "wdth" 50, "opsz" 0;}
-.regular p, .regular #custom { font-variation-settings: "wght" 400, "ital" 50, "wdth" 50, "opsz" 0; }
-.medium p, .medium #custom { font-variation-settings: "wght" 500, "ital" 50, "wdth" 50, "opsz" 0; }
-.bold p, .bold #custom { font-variation-settings: "wght" 700, "ital" 50, "wdth" 50, "opsz" 0;}
-.extra p, .extra #custom {font-variation-settings: "wght" 800, "ital" 50, "wdth" 50, "opsz" 0;}
-.heavy p, .heavy #custom {font-variation-settings: "wght" 900, "ital" 50, "wdth" 50, "opsz" 0;}
-.litalic p, .litalic #custom {font-variation-settings: "wght" 400, "ital" 0, "wdth" 50, "opsz" 0;}
-.ritalic p, .ritalic #custom {font-variation-settings: "wght" 400, "ital" 100, "wdth" 50, "opsz" 0;}
-.length1 p, .length1 #custom { font-variation-settings: "wght" 400, "ital" 50, "wdth" 0, "opsz" 0; }
-.width1 p, .width1 #custom { font-variation-settings: "wght" 400, "ital" 50, "wdth" 100, "opsz" 0; }
-.casual p, .casual #custom { font-variation-settings: "wght" 400, "ital" 50, "wdth" 50, "opsz" 100; }
-.mixed p, .mixed #custom { font-variation-settings: "wght" 900, "ital" 50, "wdth" 50, "opsz" 100; }
+.light p, .light #custom { font-variation-settings: "wght" 300, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0;}
+.regular p, .regular #custom { font-variation-settings: "wght" 400, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0; }
+.medium p, .medium #custom { font-variation-settings: "wght" 500, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0; }
+.bold p, .bold #custom { font-variation-settings: "wght" 700, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0;}
+.extrabold p, .extrabold #custom {font-variation-settings: "wght" 800, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0;}
+.heavy p, .heavy #custom {font-variation-settings: "wght" 900, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 0;}
+.litalic p, .litalic #custom {font-variation-settings: "wght" 400, "ital" 0, "wdth" 100, "opsz" 0, "slnt" 12;}
+.ritalic p, .ritalic #custom {font-variation-settings: "wght" 400, "ital" 0, "wdth" 100, "opsz" 0, "slnt" -12;}
+.lslant p, .lslant #custom { font-variation-settings: "wght" 400, "ital" 12, "wdth" 100, "opsz" 0, "slnt" 0; }
+.rslant p, .rslant #custom { font-variation-settings: "wght" 400, "ital" -12, "wdth" 100, "opsz" 0, "slnt" 0; }
+.length1 p, .length1 #custom { font-variation-settings: "wght" 400, "ital" 0, "wdth" 200, "opsz" 0, "slnt" 0; }
+.width1 p, .width1 #custom { font-variation-settings: "wght" 400, "ital" 0, "wdth" 50, "opsz" 0, "slnt" 0; }
+.casual p, .casual #custom { font-variation-settings: "wght" 400, "ital" 0, "wdth" 100, "opsz" 100, "slnt" 0; }
+.mixed p, .mixed #custom { font-variation-settings: "wght" 900, "ital" 0, "wdth" 100, "opsz" 100, "slnt" 0; }
 
 .vf p, .vf #custom {
 font-size: var(--size);
 letter-spacing: var(--spacing);
-font-variation-settings: 'wght' var(--wght, 400), 'ital' var(--ital, 50), 'wdth' var(--wdth, 50), 'opsz' var(--opsz, 0);
+font-variation-settings:'wght' var(--wght, 400), 'ital' var(--ital, 0), 'wdth' var(--wdth, 100), 'opsz' var(--opsz, 0), 'slnt' var(--slnt, 0);
 }
 
 #vfval { font-size: 70% }
@@ -69,7 +71,7 @@ p.line { margin: 0.8em 0 }
 <body>
 
 	<div id="title">
-		<h1>混菜寫楷 Mixed VsWeKai</h1><br>
+		<h1 class="bold">混菜寫楷 Mixed VsWeKai</h1><br>
 		<a href="index.html">效果1 Effect 1</a><a>、</a>
 		<a href="https://github.com/FWHP-Enfun" target="_blank">FWHP GitHub</a><a>、</a>
 		<a href="https://github.com/FWHP-Enfun/Mixed-VsWeKai" target="_blank">字體網站 Font Site</a>
@@ -80,10 +82,12 @@ p.line { margin: 0.8em 0 }
 		<li class="regular"><p onmouseover="setDemo('regular')">Regular</p></li>
 		<li class="medium"><p onmouseover="setDemo('medium')">Medium</p></li>
 		<li class="bold"><p onmouseover="setDemo('bold')">Bold</p></li>
-		<li class="extra"><p onmouseover="setDemo('extra')">Extra</p></li>
+		<li class="extrabold"><p onmouseover="setDemo('extrabold')">ExtraBold</p></li>
 		<li class="heavy"><p onmouseover="setDemo('heavy')">Heavy</p></li>
 		<li class="litalic"><p onmouseover="setDemo('litalic')">Litalic</p></li>
 		<li class="ritalic"><p onmouseover="setDemo('ritalic')">Ritalic</p></li>
+		<li class="lslant"><p onmouseover="setDemo('lslant')">Lslant</p></li>
+		<li class="rslant"><p onmouseover="setDemo('rslant')">Rslant</p></li>
 		<li class="length1"><p onmouseover="setDemo('length1')">Length</p></li>
 		<li class="width1"><p onmouseover="setDemo('width1')">Width</p></li>
 		<li class="casual"><p onmouseover="setDemo('casual')">Casual</p></li>
@@ -96,14 +100,17 @@ p.line { margin: 0.8em 0 }
       <label for="weight0"><small>Weight</small></label> <input id="weight0" type="range" min="300" value="400" step="1" max="900" onchange="setDemo('vf')"/>
       <output id="weight0Value"></output>
 	
-      <label for="ital"><small>Italic</small></label> <input id="ital" type="range" min="0" value="50" max="100" step="1"/ onchange="setDemo('vf')">
+      <label for="ital"><small>Italic</small></label> <input id="ital" type="range" min="-12" value="0" max="12" step="1"/ onchange="setDemo('vf')">
       <output id="italValue"></output>
 	
-      <label for="wdth"><small>Weight</small></label> <input id="wdth" type="range" min="0" value="50" max="100" step="1" onchange="setDemo('vf')"/>
+      <label for="wdth"><small>Weight</small></label> <input id="wdth" type="range" min="50" value="100" max="200" step="1" onchange="setDemo('vf')"/>
       <output id="wdthValue"></output>
 	
       <label for="opsz"><small>Optical</small></label> <input id="opsz" type="range" min="0" value="0" max="100" step="1" onchange="setDemo('vf')"/>
       <output id="opszValue"></output>
+
+      <label for="slnt"><small>Slant</small></label> <input id="slnt" type="range" min="-12" value="0" max="12" step="1" onchange="setDemo('vf')"/>
+      <output id="slntValue"></output>
 
 
 <div class="vf" id="vf">
@@ -197,7 +204,7 @@ Xin cho tôi một tô phở bò.</p>
   (ital.oninput = e => {
     let value = +ital.value;
     ital.title = value;
-    italValue.textContent = value + '%';
+    italValue.textContent = value + '°';
     vftf.style.setProperty('--ital', value)
   })();
 
@@ -213,6 +220,13 @@ Xin cho tôi một tô phở bò.</p>
     opsz.title = value;
     opszValue.textContent = value;
     vftf.style.setProperty('--opsz', value)
+  })();
+
+    (slnt.oninput = e => {
+    let value = +slnt.value;
+    slnt.title = value;
+    slntValue.textContent = value + '°';
+    vftf.style.setProperty('--slnt', value)
   })();
 
 </script>
