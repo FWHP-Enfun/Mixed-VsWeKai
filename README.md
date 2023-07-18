@@ -1,9 +1,5 @@
 # 混菜寫楷 Mixed VsWeKai
 
-我感覺違反SIL規定，我決定把芫荽擴充（Iansui Expansion）改為混菜寫楷（Mixed VsWeKai）
-
-I feel that it violates the SIL regulations, I decided to change the Iansui Expansion to Mixed VsWeKai
-
 混菜寫楷，只是把[霞鶩文楷](https://github.com/lxgw/LxgwWenKai)、[霞鶩文楷TC](https://github.com/lxgw/LxgwWenkaiTC)、[芫荽](https://github.com/ButTaiwan/iansui)混一起，都是用[Klee One](https://fonts.google.com/specimen/Klee+One)改的，我一直喜歡芫荽，不過它沒有簡體，切換字體很麻煩，所以我把他們混和
 
 Mixed VsWeKai, just mix [LXGW WenKai](https://github.com/lxgw/LxgwWenKai), [LXGW WenKai TC](https://github.com/lxgw/LxgwWenkaiTC), and [iansui](https://github.com/ButTaiwan/iansui), all changed with [Klee One](https://fonts.google.com/specimen/Klee+One), I have always liked iansui, but it does not have simplified characters, it is troublesome to switch fonts, so I mixed them
@@ -12,9 +8,29 @@ Mixed VsWeKai, just mix [LXGW WenKai](https://github.com/lxgw/LxgwWenKai), [LXGW
 
 Later I got to know [Fusion Kai](https://github.com/lxgw/FusionKai), but there are still differences, there are more characters
 
-之前文案是別人的，這次我想要改為自己的
+1.2版本後，有提供TC、JP、LXGW、OTC、SC、HK版本，目前只有TC，有時間會做其他版本
 
-The previous copywriting belonged to someone else, this time I want to change it to my own
+After version 1.2, TC, JP, LXGW, OTC, SC, HK versions are available, currently only TC, other versions will be made when time is available
+
+LXGW版是直接用霞鶩文楷做可變效果，沒有縫合
+
+The LXGW version is directly made of Xiaqu Wenkai for variable effects, without stitching
+
+當初是我一個人好奇做可變字體，想看看神奇效果，其實能用可變字體的軟體少，在網路上好用
+
+At the beginning, I was curious about making variable fonts and wanted to see the magical effect. In fact, there are few software that can use variable fonts, and it is easy to use on the Internet.
+
+我的做字體技術很差，做可變字體算還不錯，改版需要重新再做一次，製作時間是3小時，可變有圖層，越多越慢，非常麻煩，字體匯出時間是3～5小時，算空閒的一整天
+
+My technique of making fonts is very poor, and it is not bad to make variable fonts. The revision needs to be done again, and the production time is 3 hours. The variable has layers, and the more the slower, it is very troublesome. The font export time is 3~5 hours, a free day
+
+1.2版本是個最後版本，我不接受任何建議，我不想修改，很麻煩
+
+Version 1.2 is the last version, I don't accept any suggestions, I don't want to modify it, it's very troublesome
+
+可變字體的檔案很大，字元很多，無法解決
+
+The variable font file is very large and has many characters, which cannot be resolved
 
 # 內容差別 Content Difference
 
